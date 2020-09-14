@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-function Home() {
-    return (
-        <div className='home'>
-            <h1>Home</h1>
-        </div>
-    );
-}
+const Home = ({handleLogout}) => {
+    return(
+        <section className ="home">
+            <h2> Hello!! </h2>
+        </section>
+    )
+};
 
-export default Home
+export default Home;
